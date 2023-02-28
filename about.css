@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #30d4d4;
+}
+.center-screen {
+  position: fixed;
+  top: 0%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.apresentacao {
+  justify-content: center;
+  width: 800px;
+  align-items: center;
+  gap: 20px;
+  display: flex;
+  box-shadow: 0px 0px 20px 2px;
+  border-radius: 15px;
+}
+.ostexto {
+  align-items: center;
+}
+.img {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.vermelho {
+  color: red;
+  display: block;
+}
+.texto {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.sla {
+  margin-bottom: 20px;
+}
+.botaopracomprar {
+  margin-bottom: 20px;
+}
+.preco {
+  margin-bottom: 20px;
+}
+.porra {
+  font-size: 50px;
+}
+.teste {
+}
+.arroz {
+  font-size: 12px;
+}
+.cu {
+  font-size: 36px;
+}
+.peido {
+  font-size: 14px;
+}
+
+.botaopracomprar {
+  background-color: red;
+  color: white;
+  width: 340px;
+  border-radius: 5px;
+  font-size: 24px;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
